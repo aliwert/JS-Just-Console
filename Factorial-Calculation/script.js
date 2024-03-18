@@ -6,6 +6,6 @@ let number = Number(prompt("Enter a number: "));
 let mul = 1;
 
 for (let i = 1; i <= number; i++) {
-  mul = mul * i;
+  mul *= i;
 }
 alert(`Result: ${mul}`);
